@@ -47,9 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     mysqli_stmt_bind_result($stmt_admin, $aid, $name, $position, $email, $gender, $birthday, $username, $hashed_password, $created_at, $last_loggedin);
                     if (mysqli_stmt_fetch($stmt_admin)) {
                         if (password_verify($password, $hashed_password)) {
-                            // Password is correct, so start a new session
-                            session_start();
-
+                            // Password is correct, so use the existing session
                             // Store admin data in session variables
                             $_SESSION["loggedin"] = true;
                             $_SESSION["role"] = "admin";
