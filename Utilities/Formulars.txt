@@ -1,0 +1,137 @@
+INSERT INTO calculators (name, category, file_path) VALUES
+    ('Drill Collar Weight', 'Applied Drilling Formulas', 'calculators/DrillCollarWeight.php'),
+    ('Effective Mud Density', 'Applied Drilling Formulas', 'calculators/EffectiveMudDensity.php'),
+    ('Equivalent Circulating Density (ECD) Using Yield Point for MW less than or equal to 13 ppg', 'Applied Drilling Formulas', 'calculators/EquivalentCirculatingDensity(ECD)UsingYieldPointforMWlessthan13ppg.php'),
+    ('Equivalent Circulating Density (ECD) Using Yield Point for MW more than 13 ppg', 'Applied Drilling Formulas', 'calculators/EquivalentCirculatingDensity(ECD)UsingYieldPointforMWmorethan13ppg.php'),
+    ('Lag Time', 'Applied Drilling Formulas', 'calculators/LagTimeCalculation.php'),
+    ('Light weight spot fill to balance formation pressure', 'Applied Drilling Formulas', 'calculators/LightWeightSpotFillToBalanceFormationPressure.php'),
+    ('Loss of hydrostatic pressure due to filling water into annulus in case of lost return', 'Applied Drilling Formulas', 'calculators/LossofHydrostaticPressureDuetoFillingWaterIntoAnnulusInCaseofLostReturn.php'),
+    ('Margine of Over Pull (MOP)', 'Applied Drilling Formulas', 'calculators/MarginofOverPull.php'),
+    ('Maximum ROP Before Fracturing Formation', 'Applied Drilling Formulas', 'calculators/MaximumROPBrforeFracturingFormation.phps'),
+    ('Pipe Elongation Due to Temperature', 'Applied Drilling Formulas', 'calculators/PipeElongationDuetoTemperature.php'),
+    ('Pressure required to break circulation', 'Applied Drilling Formulas', 'calculators/Pressure'),
+    ('Pump out (both duplex and triplex pump)', 'Applied Drilling Formulas', 'calculators/Pumpout.php'),
+    ('Pump Pressure and Pump Stroke Relationship', 'Applied Drilling Formulas', 'calculators/PumpPressureandPumpStrokeRelationship.php'),
+    ('Stuck Pipe Calculation', 'Applied Drilling Formulas', 'calculators/StuckPipeCalculation.php'),
+    ('Ton Miles Calculation', 'Applied Drilling Formulas', 'calculators/TonMileCalculation.php'),
+    ('Volume of Cutting Generated While Drilling', 'Applied Drilling Formulas', 'calculators/VolumeofCuttingGeneratedWhileDrilling.php');
+
+INSERT INTO calculators (name, category, file_path) VALUES
+    ('Accumulator Capacity', 'Basic Drilling Formulas', 'calculators/AccumulatorCapacity.php'),
+    ('Amount of cuttings drilled per foot of hole drilled', 'Basic Drilling Formulas', 'calculators/AmountOfCuttingsDrilledPerFootOfHoleDrilled.php'),
+    ('Annular Capacity', 'Basic Drilling Formulas', 'calculators/AnnularCapacityBetweenCasingOrHoleAndDrillPipeTubingOrCasing.php'),
+    ('Annular Velocity (AV)', 'Basic Drilling Formulas', 'calculators/AnnularVelocity(AV).php'),
+    ('Pressure test volumes', 'Basic Drilling Formulas', 'calculators/PressureTestVolumes.php'),
+    ('Buoyancy Factor (BF) with different fluid weight inside and outside', 'Basic Drilling Formulas', 'calculators/BuoyancyFactor(Bf)WithDifferentFluidWeightInsideAndOutside.php'),
+    ('Convert Temperature Unit', 'Basic Drilling Formulas', 'calculators/TemperatureConverter.php'),
+    ('Converting Pressure into Mud Weight', 'Basic Drilling Formulas', 'calculators/ConvertingPressureintoMudWeight.php'),
+    ('Coring Cost Per Footage Recovered', 'Basic Drilling Formulas', 'calculators/CoringCostPerFootageRecovered.php'),
+    ('Depth of washout', 'Basic Drilling Formulas', 'calculators/DepthofWashout.php'),
+    ('D-Exponent and D-Exponent Corrected', 'Basic Drilling Formulas', 'calculators/D-ExponentandD-ExponentCorrected.php'),
+    ('Displacement of plain pipe such as casing, tubing, etc.', 'Basic Drilling Formulas', 'calculators/DisplacementOfPlainPipeSuchAsCasingTubingEtc.php'),
+    ('Drilling Cost Per Foot', 'Basic Drilling Formulas', 'calculators/CostPerFootCalculation.php'),
+    ('Equivalent Circulating Density (ECD)', 'Basic Drilling Formulas', 'calculators/EquivalentCirculatingDensity(ECD)'),
+    ('Formation Integrity Test (FIT)', 'Basic Drilling Formulas', 'calculators/PressureRequiredFormationIntegrityTest(FIT).php'),
+    ('Formation Temperature', 'Basic Drilling Formulas', 'calculators/FormationTemperature.php'),
+    ('How many feet of drill pipe pulled to lose a certain amount of hydrostatic pressure (psi)', 'Basic Drilling Formulas', 'calculators/HowManyFeetOfDrillPipePulledToLoseCertainAmountOfHydrostaticPressure(Psi).php'),
+    ('Hydrostatic Pressure (HP)', 'Basic Drilling Formulas', 'calculators/HydrostaticPressure(HP).php'),
+    ('Hydrostatic Pressure (HP) Decrease When POOH', 'Basic Drilling Formulas', 'calculators/HydrostaticPressure(HP)DecreaseWhenPOOH.php'),
+    ('Inner Capacity of open hole, inside cylindrical objects', 'Basic Drilling Formulas', 'calculators/InnerCapacityOfOpenHole,InsideCylindricalObjects.php'),
+    ('Leak Off Test (LOT)', 'Basic Drilling Formulas', 'calculators/LeakOffTestPressureConvertedtoEquivalentMudWeight(LOT).php'),
+    ('Pressure Gradient', 'Basic Drilling Formulas', 'calculators/Pressure and Force'),
+    ('Slug Calculation', 'Basic Drilling Formulas', 'calculators/SlugCalculation.php'),
+    ('Specific Gravity (SG)', 'Basic Drilling Formulas', 'calculators/SpecificGravity(SG).php'),
+    ('Total Bit Revolution in Mud Motor', 'Basic Drilling Formulas', 'calculators/TotalBitRevolutioninMudMotor.php');
+
+INSERT INTO calculators (name, category, file_path) VALUES
+    ('Directional Survey - Angle Averaging Method', 'Directional Drilling Calculation', 'calculators/DirectionalSurvey-AngleAveragingMethod.php'),
+    ('Directional Survey - Radius of Curvature Method', 'Directional Drilling Calculation', 'calculators/DirectionalSurvey-RadiusofCurvatureMethod.php'),
+    ('Directional Survey - Balanced Tangential Method', 'Directional Drilling Calculation', 'calculators/DirectionalSurvey-BalancedTangentialMethod.php'),
+    ('Directional Survey - Minimum Curvature Method', 'Directional Drilling Calculation', 'calculators/DirectionalSurvey-MinimumCurvatureMethod.php'),
+    ('Directional Survey - Tangential Method', 'Directional Drilling Calculation', 'calculators/DirectionalSurvey-TangentialMethod.php'),
+    ('Dogleg Severity Calculation based on Radius of Curvature Method', 'Directional Drilling Calculation', 'calculators/DoglegSeverityCalculationbasedonRadiusofCurvatureMethod.php'),
+    ('Dogleg Severity Calculation based on Tangential Method', 'Directional Drilling Calculation', 'calculators/DoglegSeverityCalculationbasedonTangentialMethod.php');
+
+INSERT INTO calculators (name, category, file_path) VALUES
+    ('Bulk Density of Cuttings by using Mud Balance', 'Drilling Fluid Formulas', 'calculators/BulkDensityofCuttingsbyusingMudBalance.php'),
+    ('Decrease oil water ratio', 'Drilling Fluid Formulas', 'calculators/DecreaseOilWaterRatio.php'),
+    ('Determine oil water ratio from a retort analysis', 'Drilling Fluid Formulas', 'calculators/DetermineOilWaterRatioFromARetortAnalysis.php'),
+    ('Determine the density of oil/water mixture', 'Drilling Fluid Formulas', 'calculators/DetermineTheDensityOfOilWaterMixture.php'),
+    ('Dilution to control LGS', 'Drilling Fluid Formulas', 'calculators/DilutiontoControlLGS.php'),
+    ('Increase mud weight by adding Barite', 'Drilling Fluid Formulas', 'calculators/IncreaseMudWeightByAddingBarite.php'),
+    ('Increase mud weight by adding Calcium Carbonate', 'Drilling Fluid Formulas', 'calculators/IncreaseMudWeightByAddingCalciumCarbonate.php'),
+    ('Increase mud weight by adding Hematite', 'Drilling Fluid Formulas', 'calculators/IncreaseMudWeightByAddingHematite.php'),
+    ('Increase oil water ratio', 'Drilling Fluid Formulas', 'calculators/IncreaseOilWaterRatio.php'),
+    ('Mixing Fluids of Different Densities with Pit Space Limitation', 'Drilling Fluid Formulas', 'calculators/MixingFluidsofDifferentDensitieswithPitSpaceLimitation.php'),
+    ('Mixing Fluids of Different Densities without Pit Space Limitation', 'Drilling Fluid Formulas', 'calculators/MixingFluidsofDifferentDensitieswithoutPitSpaceLimitation.php'),
+    ('Plastic Viscosity (PV) and Yield Point (YP) from mud test', 'Drilling Fluid Formulas', 'calculators/PlasticViscosity(PV)andYieldPoint(YP)frommudtest.php'),
+    ('Reduce mud weight by dilution', 'Drilling Fluid Formulas', 'calculators/ReduceMudWeightByDilution.php'),
+    ('Solid Density From Retort Analysis', 'Drilling Fluid Formulas', 'calculators/SolidDensityFromRetortAnalysis.php');
+
+INSERT INTO calculators (name, category, file_path) VALUES
+    ('Annular Pressure Loss', 'Engineering Formulas', 'calculators/AnnularPressureLoss.php'),
+    ('Critical RPM', 'Engineering Formulas', 'calculators/CriticalRpmToPreventPipeFailureDueToHighVibration.php'),
+    ('Calculate Equivalent Circulating Density with Engineering Formula', 'Engineering Formulas', 'calculators/CalculateEquivalentCirculatingDensitywithEngineeringFormula.php'),
+    ('Bottom Hole Pressure from Wellhead Pressure in a Dry Gas Well', 'Engineering Formulas', 'calculators/BottomHolePressurefromWellheadPressureinaDryGasWell.php');
+
+INSERT INTO calculators (name, category, file_path) VALUES
+    ('Bi Nozzle Velocity', 'Hydraulic Formulas', 'calculators/BitNozzleVelocity.php'),
+    ('Bit Aggressiveness', 'Hydraulic Formulas', 'calculators/BitAggressivenessCoefficientofFriction.php'),
+    ('Bit Hydraulic Horsepower', 'Hydraulic Formulas', 'calculators/BitHydraulicHorsepowe(hp).php'),
+    ('Bit Hydraulic Horsepower Per Area of Drill Bit (HSI)', 'Hydraulic Formulas', 'calculators/BitHydraulicHorsepowerPerAreaofDrilBit(HSI).php'),
+    ('Critical Flow Rate', 'Hydraulic Formulas', 'calculators/CriticalFlowRatewithPowerLawConstant.php'),
+    ('Cross Flow Velocity Under a Drilling Bit', 'Hydraulic Formulas', 'calculators/CrossFlowVelocityUnderaDrillingBit.php'),
+    ('Cutting Carrying Index', 'Hydraulic Formulas', 'calculators/CuttingCarryingIndex.php'),
+    ('Cutting Slip Velocity Method#1', 'Hydraulic Formulas', 'calculators/CuttingSlipVelocityMethod1.php'),
+    ('Cutting Slip Velocity Method#2', 'Hydraulic Formulas', 'calculators/CuttingSlipVelocityMethod2.php'),
+    ('Effective Viscosity', 'Hydraulic Formulas', 'calculators/EffectiveViscosity.php'),
+    ('Hydraulic Horse Power (HPP)', 'Hydraulic Formulas', 'calculators/HydraulicHorsePower(HPP).php'),
+    ('Impact Force of Jet Nozzles on Bottom Hole', 'Hydraulic Formulas', 'calculators/ImpactForceofJetNozzlesonBottomHole.php'),
+    ('Mechanical Specific Energy', 'Hydraulic Formulas', 'calculators/MechanicalSpecificEnergy.php'),
+    ('Minimum Flow Rate PDC bit', 'Hydraulic Formulas', 'calculators/MinimumFlowRateforPDCbit.php'),
+    ('Optimum Flow Rate for basic system', 'Hydraulic Formulas', 'calculators/OptimumFlowRate-OptimzedatTheEndofTheRun.php'),
+    ('Power Law Constant', 'Hydraulic Formulas', 'calculators/PowerLawConstant.php'),
+    ('Pressure Drop Across Bit', 'Hydraulic Formulas', 'calculators/PressureDropAcrossBit(psi).php'),
+    ('Pressure Loss Annulus', 'Hydraulic Formulas', 'calculators/PressureLossinAnnulus.php'),
+    ('Pressure Loss Annulus With Tool Joint Correction', 'Hydraulic Formulas', 'calculators/PressureLossinAnnuluswithCorrectedCoefficient.php'),
+    ('Pressure Loss Drillstring', 'Hydraulic Formulas', 'calculators/PressureLossThroughTheDrillString.php'),
+    ('Pressure Loss Drillstring With Tool Joint Correction', 'Hydraulic Formulas', 'calculators/PressureLossThroughTheDrillStringWithToolJointCoefficient.php'),
+    ('Pressure Loss in Surface Equipment', 'Hydraulic Formulas', 'calculators/PressureLossThroughSurfaceEquipment.php'),
+    ('Reynold Number', 'Hydraulic Formulas', 'calculators/ReynoldNumber.php'),
+    ('Surge and Swab Pressure Method#1', 'Hydraulic Formulas', 'calculators/SurgeAndSwabPressureMethod1.php'),
+    ('Surge and Swab Pressure Method#2', 'Hydraulic Formulas', 'calculators/SurgeAndSwabPressureMethod2.php'),
+    ('Total Flow Area Table', 'Hydraulic Formulas', 'calculators/TotalFlowArea.php');
+
+INSERT INTO calculators (name, category, file_path) VALUES
+    ('Actual gas migration rate in a shut in well', 'Well Control Formulas', 'calculators/ActualGasMigrationRate.php'),
+    ('Adjusted maximum allowable shut-in casing pressure for new mud weight', 'Well Control Formulas', 'calculators/AdjustedMaximumAllowableShut-inCasingPressureForNewMudWeight.php'),
+    ('Calculate Influx Height', 'Well Control Formulas', 'calculators/CalculateInfluxHeight.php'),
+    ('Estimate gas migration rate with an empirical equation', 'Well Control Formulas', 'calculators/EstimateGasMigrationRateWithAnEmpiricalEquation.php'),
+    ('Estimate type of influx', 'Well Control Formulas', 'calculators/EstimateTypeofInflux(kick).php'),
+    ('Final Circulating Pressure (FCP)', 'Well Control Formulas', 'calculators/FinalCirculatingPressure(PSI).php'),
+    ('Formation pressure from kick analysis', 'Well Control Formulas', 'calculators/FormationPressurefromKickAnalysis.php'),
+    ('Hydrostatic Pressure Loss Due to Gas Cut Mud', 'Well Control Formulas', 'calculators/HydrostaticPressureLossDuetoGasCut.php'),
+    ('Increase in Casing Pressure due to Kick Penetration', 'Well Control Formulas', 'calculators/IncreaseInCasingPressureDueToKickPenetration.php'),
+    ('Initial Circulating Pressure (ICP)', 'Well Control Formulas', 'calculators/InitialCirculatingPressure(psi).php'),
+    ('Kick tolerance factor (KTF)', 'Well Control Formulas', 'calculators/KickToleranceFactor(KTF).php'),
+    ('Kill Weight Mud', 'Well Control Formulas', 'calculators/KillMudWeight.php'),
+    ('Lube Increment', 'Well Control Formulas', 'calculators/LubeIncrement(MI).php'),
+    ('Maximum formation pressure (FP)', 'Well Control Formulas', 'calculators/MaximumFormationPressureThatCanWithstandWhenShutInTheWell.php'),
+    ('Maximum influx height', 'Well Control Formulas', 'calculators/MaximumPossibleInfluxHeightWhenEqualToMaximumAllowableShutInCasingPressure.php'),
+    ('Maximum Initial Shut-In Casing Pressure (MISICP)', 'Well Control Formulas', 'calculators/MaximumInitialShut-InCasingPressure(MISICP).php'),
+    ('Maximum pit gain from gas kick in water based mud', 'Well Control Formulas', 'calculators/MaximumPitGainFromGasKickInWaterBasedMud.php'),
+    ('Maximum Surface Pressure from Gas Influx in Water Based Mud', 'Well Control Formulas', 'calculators/MaximumSurfacePressureFromGasInfluxInWaterBasedMud.php'),
+    ('Maximum surface pressure from kick tolerance information', 'Well Control Formulas', 'calculators/MaximumSurfacePressureFromKickToleranceInformation.php'),
+    ('Mud Increment', 'Well Control Formulas', 'calculators/MudIncrement(MI).php'),
+    ('New Pressure Loss With New Mud (psi)', 'Well Control Formulas', 'calculators/NewPressureLossWithNewMud(psi).php'),
+    ('Riser Margin', 'Well Control Formulas', 'calculators/RiserMargin.php'),
+    ('Time To Penetrate Kick', 'Well Control Formulas', 'calculators/TimeToPenetrateTheKick.php'),
+    ('Trip margin', 'Well Control Formulas', 'calculators/TripMarginCalculation.php'),
+    ('Bottle Capacity Required in Accumulator', 'Well Control Formulas', 'calculators/BottleCapacityRequiredinAccumulator.php');
+
+INSERT INTO calculators (name, category, file_path) VALUES
+    ('Tensile Capacity of Drill String', 'Drill String', 'calculators/TensileCapacityofDrillpipe.php');
+
+INSERT INTO calculators (name, category, file_path) VALUES
+    ('Squeeze Below Retainer and Balance Cement Plug Above Retainer', 'Cementing', 'calculators/SqueezeBelowRetainerandBalanceCementPlugAboveRetainer.php'),
+    ('Balance Cement Plug Above Retainer', 'Cementing', 'calculators/BalanceCementPlugAboveRetainer.php');
